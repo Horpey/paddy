@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="90px" viewBox="0 0 120 90" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>fca-regulated1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M6.1042098,34.5679012 L34.5905222,34.5679012 L34.5905222,19.7530864 C34.5905222,12.1165565 28.213644,5.92592593 20.347366,5.92592593 C12.481088,5.92592593 6.1042098,12.1165565 6.1042098,19.7530864 L6.1042098,34.5679012 Z M20.347366,0 C31.5849059,-2.00401111e-15 40.694732,8.84375803 40.694732,19.7530864 L40.694732,40.4938272 L0,40.4938272 L0,19.7530864 C-1.80720914e-15,8.84375803 9.10982606,2.00401111e-15 20.347366,0 Z" id="path-1"></path>
+        <rect id="path-3" x="0" y="32.5925926" width="56.9726248" height="40.4938272" rx="4.9005"></rect>
+    </defs>
+    <g id="Assets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="fca-regulated1">
+            <g id="fca-regulated" transform="translate(31.000000, 8.000000)">
+                <g id="Rectangle-3" transform="translate(8.138946, 0.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Mask" fill="#333399" fill-rule="nonzero" xlink:href="#path-1"></use>
+                </g>
+                <mask id="mask-4" fill="white">
+                    <use xlink:href="#path-3"></use>
+                </mask>
+                <use id="Mask" fill="#6666FF" xlink:href="#path-3"></use>
+                <path d="M56.8909846,36.5975477 L6.66836089,73.0864198 L4.9005,73.0864198 C2.19402858,73.0864198 4.77233925e-15,70.8923912 4.4408921e-15,68.1859198 L3.55271368e-15,37.4930926 C3.22126652e-15,34.7866212 2.19402858,32.5925926 4.9005,32.5925926 L52.0721248,32.5925926 C54.4727272,32.5925926 56.4701681,34.318732 56.8909846,36.5975477 Z" id="Combined-Shape" fill="#5858E6"></path>
+            </g>
+        </g>
+    </g>
+</svg>
