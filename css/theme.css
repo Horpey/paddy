@@ -1318,7 +1318,7 @@ nav {
   line-height: 62px;
 }
 .nav-bar .logo {
-  max-height: 40%;
+  max-height: 100%;
   margin: 0;
 }
 .nav-bar .nav-module {
@@ -1349,6 +1349,7 @@ nav {
 }
 .nav-module.left {
   float: left;
+  padding-top: 21px;
 }
 .nav-module.right {
   float: right;
