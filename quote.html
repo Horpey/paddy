@@ -1,0 +1,472 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Paddy Cover</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/socicon.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/iconsmind.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/interface-icons.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/owl.carousel.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/lightbox.min.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/theme.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/custom.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/custom-paddy.css" rel="stylesheet" type="text/css" media="all" />
+
+
+    <link rel="shortcut icon" href="img/favicon.png">
+
+    <link rel="stylesheet" href="vendors/fuelux/css/fuelux.wizard.min.css">
+
+    <style type="text/css">
+        #message-wrapper {
+            display: none !important;
+        }
+    </style>
+
+
+
+    <!-- <link href='https://fonts.googleapis.com/css?family=Lora:400,400italic,700%7CMontserrat:400,700' rel='stylesheet' type='text/css'> -->
+    <!-- <link href="css.html" rel="stylesheet" type="text/css" media="all" /> -->
+</head>
+
+<body class="scroll-assist">
+    <a id="top"></a>
+    <div class="loader"></div>
+    <nav class="transition--fade" style="min-height: 93px;
+    box-shadow: 1px 4px 15px 0px #00000014;">
+        <div class="nav-bar" data-fixed-at="200">
+            <div class="nav-module logo-module left">
+                <a href="index.html">
+                    <img class="logo logo-dark" alt="logo" src="img/logo.svg" />
+                    <img class="logo logo-light" alt="logo" src="img/logo.svg" />
+                </a>
+            </div>
+            <div class="nav-module menu-module left">
+                <ul class="menu">
+                    <li>
+                        <a href="#">
+                            Insurance Category
+                        </a>
+                        <ul>
+                            <li class="dropdown">
+                                <a href="thirdParty.html">3rd Party Car Insurance</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="comprehensive.html">Comprehensive Car Insurance</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="health.html">Health Insurance</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="phone.html">Phone/Laptop Insurance</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Why PaddyCover
+                        </a>
+                        <ul>
+                            <li class="dropdown">
+                                <a href="about.html">About</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="customer.html">Customer Service</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="team.html">Team</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="support.html">
+                            Support
+                        </a>
+                    </li>
+                    <li class="active">
+                        <a href="quote.html" class="">
+                            Get a Quote
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+            <!--end nav module-->
+            <div class="nav-module right">
+
+            </div>
+            <div class="nav-module right">
+                <a class="btn  btn--sm btn--primary" href="sign-in.html">
+                    <span class="btn__text">
+                        Sign In
+                    </span>
+                </a>
+            </div>
+        </div>
+        <!--end nav bar-->
+        <div class="nav-mobile-toggle visible-sm visible-xs">
+            <i class="icon-Align-Right icon icon--sm"></i>
+        </div>
+    </nav>
+    <div class="main-container transition--fade">
+        <section class="height-100 cover cover-8" style="margin-top: 30px;">
+
+            <div class="container">
+                <div id="wizard" class="fuelux">
+                    <div class="wizard" data-initialize="wizard" id="myWizard">
+                        <div class="steps-container">
+                            <ul class="steps">
+                                <li data-step="1" data-name="campaign" class="active">
+                                    <span class="badge badge-circle">1</span>Your Details
+                                    <span class="chevron"></span>
+                                </li>
+                                <li data-step="2">
+                                    <span class="badge badge-circle">2</span>Your Quote
+                                    <span class="chevron"></span>
+                                </li>
+                                <li data-step="3" data-name="template">
+                                    <span class="badge badge-circle">3</span>Final Details
+                                    <span class="chevron"></span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="actions">
+                            <button type="button" class="btn btn--primary btn-prev">
+                                Prev</button>
+                            <button type="button" class="btn btn--primary btn-next" data-last="Complete">Next
+
+                            </button>
+                        </div>
+                        <div class="step-content">
+                            <div class="step-pane active sample-pane alert" data-step="1">
+                                <h4 class="danger">Your Details</h4>
+
+                                <div class="form-group">
+                                    <label class="control-label">
+                                        First Name
+                                        <span class="symbol required"></span>
+                                    </label>
+                                    <input type="text" placeholder="Insert your First Name" class="form-control" id="firstname"
+                                        name="firstname">
+                                </div>
+                                <div class="form-group">
+                                    <label class="control-label">
+                                        Last Name
+                                        <span class="symbol required"></span>
+                                    </label>
+                                    <input type="text" placeholder="Insert your Last Name" class="form-control" id="lastname"
+                                        name="lastname">
+                                </div>
+                                <div class="form-group">
+                                    <label class="control-label">
+                                        Email Address
+                                        <span class="symbol required"></span>
+                                    </label>
+                                    <input type="email" placeholder="Text Field" class="form-control" id="email" name="email">
+                                </div>
+                                <div class="form-group">
+                                    <label class="control-label">
+                                        Password
+                                        <span class="symbol required"></span>
+                                    </label>
+                                    <input type="password" class="form-control" name="password" id="password">
+                                </div>
+                                <div class="form-group">
+                                    <label class="control-label">
+                                        Confirm Password
+                                        <span class="symbol required"></span>
+                                    </label>
+                                    <input type="password" class="form-control" id="password_again" name="password_again">
+                                </div>
+
+                            </div>
+                            <div class="step-pane sample-pane alert" data-step="2">
+                                <h4>Your Quote</h4>
+
+                                <div class="form-group connected-group">
+                                    <label class="control-label">
+                                        Date of Birth
+                                        <span class="symbol required"></span>
+                                    </label>
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <select name="dd" id="dd" class="form-control">
+                                                <option value="">DD</option>
+                                                <option value="01">1</option>
+                                                <option value="02">2</option>
+                                                <option value="03">3</option>
+                                                <option value="04">4</option>
+                                                <option value="05">5</option>
+                                                <option value="06">6</option>
+                                                <option value="07">7</option>
+                                                <option value="08">8</option>
+                                                <option value="09">9</option>
+                                                <option value="10">10</option>
+                                                <option value="11">11</option>
+                                                <option value="12">12</option>
+                                                <option value="13">13</option>
+                                                <option value="14">14</option>
+                                                <option value="15">15</option>
+                                                <option value="16">16</option>
+                                                <option value="17">17</option>
+                                                <option value="18">18</option>
+                                                <option value="19">19</option>
+                                                <option value="20">20</option>
+                                                <option value="21">21</option>
+                                                <option value="22">22</option>
+                                                <option value="23">23</option>
+                                                <option value="24">24</option>
+                                                <option value="25">25</option>
+                                                <option value="26">26</option>
+                                                <option value="27">27</option>
+                                                <option value="28">28</option>
+                                                <option value="29">29</option>
+                                                <option value="30">30</option>
+                                                <option value="31">31</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <select name="mm" id="mm" class="form-control">
+                                                <option value="">MM</option>
+                                                <option value="01">1</option>
+                                                <option value="02">2</option>
+                                                <option value="03">3</option>
+                                                <option value="04">4</option>
+                                                <option value="05">5</option>
+                                                <option value="06">6</option>
+                                                <option value="07">7</option>
+                                                <option value="08">8</option>
+                                                <option value="09">9</option>
+                                                <option value="10">10</option>
+                                                <option value="11">11</option>
+                                                <option value="12">12</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <input type="text" placeholder="YYYY" id="yyyy" name="yyyy" class="form-control">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="control-label">
+                                        Gender
+                                        <span class="symbol required"></span>
+                                    </label>
+                                    <div>
+
+                                        <div class="radio radio-primary radio-inline">
+                                            <input type="radio" value="" name="gender" id="gender_female">
+                                            <label for="gender_female">Female</label>
+                                        </div>
+                                        <div class="radio radio-primary radio-inline">
+                                            <input type="radio" value="" name="gender" id="gender_male">
+                                            <label for="gender_male">male</label>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="form-group">
+                                            <label class="control-label">
+                                                Zip Code
+                                                <span class="symbol required"></span>
+                                            </label>
+                                            <input class="form-control" type="text" name="zipcode" id="zipcode">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="form-group">
+                                            <label class="control-label">
+                                                City
+                                                <span class="symbol required"></span>
+                                            </label>
+                                            <input class="form-control tooltips" type="text" data-original-title="We'll display it when you write reviews"
+                                                data-rel="tooltip" title="" data-placement="top" name="city" id="city">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <hr>
+                                    <label class="control-label">
+                                        <strong>Signup for Clip-One Emails</strong>
+                                        <span class="symbol required"></span>
+                                    </label>
+                                    <p>
+                                        Would you like to review Clip-One emails?
+                                    </p>
+                                    <div>
+                                        <div class="radio radio-primary radio-inline">
+                                            <input type="radio" value="" name="newsletter" id="no">
+                                            <label for="no">Female</label>
+                                        </div>
+                                        <div class="radio radio-primary radio-inline">
+                                            <input type="radio" value="" name="newsletter" id="yes">
+                                            <label for="yes">male</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="step-pane sample-pane bg-danger alert" data-step="3">
+                                <h4>Congratulations</h4>
+                                <p> Your information post successfly </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer-2 text-center bg--white">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 text-center text-center-xs">
+                        <ul class="social-list">
+                            <li>
+                                <a href="#">
+                                    Why PaddyCover
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Support
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Jobs
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    API
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-sm-12 text-center text-center-xs">
+                        <ul class="social-list">
+                            <li>
+                                <a href="#">
+                                    Security
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Privacy Notice
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Terms &amp; conditions
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="footer__lower">
+                            <span class="type--fine-print">PaddyCover is operated in partnership with NAICOM approved
+                                insurers.</span>
+                        </div>
+                    </div>
+                </div>
+                <!--end row-->
+            </div>
+            <!--end container-->
+        </footer>
+    </div>
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/isotope.min.js"></script>
+    <!-- <script src="js/ytplayer.min.js"></script> -->
+    <!-- <script src="js/easypiechart.min.js"></script> -->
+    <script src="js/owl.carousel.min.js"></script>
+    <!-- <script src="js/lightbox.min.js"></script> -->
+    <!-- <script src="js/twitterfetcher.min.js"></script> -->
+    <script src="js/smooth-scroll.min.js"></script>
+    <!-- <script src="js/scrollreveal.min.js"></script> -->
+    <script src="js/parallax.js"></script>
+    <script src="js/scripts.js"></script>
+
+    <!-- Related JavaScript Library to This Pagee -->
+    <script type="text/javascript" src="vendors/fuelux/js/fuelux.min.js"></script>
+    <script type="text/javascript" src="vendors/fuelux/js/wizard.min.js"></script>
+
+    <!-- Plugins Script -->
+    <script type="text/javascript">
+        /* jQuery Steps Wizard*/
+        var form = $("#example-advanced-form").show();
+        form.steps({
+            headerTag: "h3",
+            bodyTag: "fieldset",
+            transitionEffect: "slideLeft",
+            onStepChanging: function (event, currentIndex, newIndex) {
+                // Allways allow previous action even if the current form is not valid!
+                if (currentIndex > newIndex) {
+                    return true;
+                }
+                // Forbid next action on "Warning" step if the user is to young
+                if (newIndex === 3 && Number($("#age-2").val()) < 18) {
+                    return false;
+                }
+                // Needed in some cases if the user went back (clean up)
+                if (currentIndex < newIndex) {
+                    // To remove error styles
+                    form.find(".body:eq(" + newIndex + ") label.error").remove();
+                    form.find(".body:eq(" + newIndex + ") .error").removeClass("error");
+                }
+                form.validate().settings.ignore = ":disabled,:hidden";
+                return form.valid();
+            },
+            onStepChanged: function (event, currentIndex, priorIndex) {
+                // Used to skip the "Warning" step if the user is old enough.
+                if (currentIndex === 2 && Number($("#age-2").val()) >= 18) {
+                    form.steps("next");
+                }
+                // Used to skip the "Warning" step if the user is old enough and wants to the previous step.
+                if (currentIndex === 2 && priorIndex === 3) {
+                    form.steps("previous");
+                }
+            },
+            onFinishing: function (event, currentIndex) {
+                form.validate().settings.ignore = ":disabled";
+                return form.valid();
+            },
+            onFinished: function (event, currentIndex) {
+                alert("Submitted!");
+            }
+        }).validate({
+            errorPlacement: function errorPlacement(error, element) {
+                element.after(error);
+            },
+            rules: {
+                confirm: {
+                    equalTo: "#password-2"
+                }
+            }
+        });
+
+        /* vertical menu wizard */
+        $("#example-vertical").steps({
+            headerTag: "h3",
+            bodyTag: "section",
+            transitionEffect: "slideLeft",
+            stepsOrientation: "vertical"
+        });
+
+
+        /* Setup Fuelux wizard */
+        $('#myWizard').wizard();
+    </script>
+</body>
+
+</html>

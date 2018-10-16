@@ -1,64 +1,205 @@
-.t-blue{
-	    color: #434791!important;
+.t-blue {
+	color: #434791 !important;
 }
-.t-green{
-	color: #00a85a!important;
+
+.t-green {
+	color: #00a85a !important;
 }
-.line-0{
-	line-height: 0!important;
+
+.line-0 {
+	line-height: 0 !important;
 }
-.mb-0{
-	margin-bottom: 0px!important;
+
+.mb-0 {
+	margin-bottom: 0px !important;
 }
-.f-18{
-	font-size: 18px!important;
+
+.f-18 {
+	font-size: 18px !important;
 }
-.btn--primary{
-	border-radius: 100px!important;
+
+.btn--primary {
+	border-radius: 100px !important;
 }
-.nav-btn{
-	color: #00a85a!important;
-    border: 1px solid;
-    padding: 0px 29px!important;
-    border-radius: 63px;
+
+.nav-btn {
+	color: #00a85a !important;
+	border: 1px solid;
+	padding: 0px 29px !important;
+	border-radius: 63px;
 }
-.img-inline{
+
+.img-inline {
 	width: 50px;
-    display: inline-block;
-}
-.ff{
-	    margin-bottom: 0px;
-    margin-left: 57px;
-}
-.d-inline{
 	display: inline-block;
 }
-.ff-sec{
-	padding-top: 50px;
-    background-color: #f3f3ff;
-    padding-bottom: 0px;
+
+.ff {
+	margin-bottom: 0px;
+	/*margin-left: 57px;*/
 }
-.app-img{
+
+.d-inline {
+	display: inline-block;
+}
+
+.ff-sec {
+	padding-top: 50px;
+	background-color: #f3f3ff;
+	padding-bottom: 0px;
+}
+
+.app-img {
 	width: 290px;
 }
-.p-4{
+
+.p-4 {
 	padding-top: 40px;
 }
-.btn-blue{
-	background-color: #434791!important;
-	border-color: #434791!important;
+
+.btn-blue {
+	background-color: #434791 !important;
+	border-color: #434791 !important;
 }
-.btn--sm{
-	border-radius: 100px!important;
+
+.btn--sm {
+	border-radius: 100px !important;
 }
-.d-sec{
+
+.d-sec {
 	padding-top: 41px;
-    padding-bottom: 20px;
+	padding-bottom: 20px;
 }
-footer{
+
+footer {
 	padding-top: 40px;
-    padding-bottom: 23px;
+	padding-bottom: 23px;
 }
-.social-list li a{
-	color: #434791!important;
+
+.social-list li a {
+	color: #434791 !important;
+}
+
+.menu>li.active a {
+	color: #00a859;
+}
+
+.why-icons {
+	width: 73px;
+	margin: 0 auto 20px;
+}
+
+.holder-about {
+	background-size: 192% !important;
+	background-position-y: -11% !important;
+}
+
+.team-sec {
+	padding-bottom: 1.125em;
+}
+
+.holder-support {
+	background-size: 100% !important;
+}
+
+
+/* Wizard Form */
+.wizardstep>.content {
+	background-color: white !important;
+}
+
+.wizardstep a {
+	background-color: #e32525;
+}
+
+.wizardstep>.steps .current a {
+	background: #e32525;
+	color: #fff;
+	cursor: default;
+}
+
+.wizardstep>.steps .number {
+	font-size: 1.429em;
+	position: absolute;
+	left: auto;
+	/* top: -20px; */
+	font-size: 82px;
+	font-weight: 700;
+	overflow: hidden;
+	margin-top: -50px;
+}
+
+.titlewizard {
+	/* padding-left: 47px; */
+}
+
+.wizardstep>.steps .current a {
+	background-color: #494a9b !important;
+}
+
+.wizardstep>.steps .done a {
+	background: #00a85a !important;
+}
+
+.wizardstep>.content {
+	min-height: 24em;
+}
+
+.fuelux .wizard {
+	background-color: white !important;
+	border: 0px !important;
+	box-shadow: 0px 0px transparent !important;
+}
+
+.fuelux .wizard>.steps-container>ul.steps li.active {
+	background: #494a9b !important;
+	color: #ffffff !important;
+}
+
+.fuelux .wizard>.steps-container>ul.steps li.active .chevron:before,
+.fuelux .wizard>ul.steps li.active .chevron:before {
+	border-left: 14px solid #494a9b !important;
+}
+
+.fuelux .wizard>.steps-container>ul.steps li.active .badge {
+	background-color: #ffffff !important;
+	border: 0px !important;
+	color: #494a9b !important;
+}
+
+.fuelux .wizard>.steps-container>ul.steps li.complete {
+	background: #00a85a !important;
+	color: #ffffff !important;
+}
+
+.fuelux .wizard>.steps-container>ul.steps li.complete .chevron:before,
+.fuelux .wizard>ul.steps li.complete .chevron:before {
+	border-left: 14px solid #00a85a !important;
+}
+
+.fuelux .wizard>.steps-container>ul.steps li .badge-success {
+	background-color: #ffffff !important;
+	border: 0px !important;
+	color: #00a85a !important;
+}
+
+.fuelux .wizard>.actions {
+	background-color: white !important;
+	border: 0px !important;
+}
+
+.step-pane {
+	padding: 20px 36px;
+}
+
+.badge-circle {
+	padding: 4px 11px;
+	text-transform: uppercase;
+	font-size: 0.7142em;
+	font-weight: bold;
+	line-height: 12px;
+	background-color: transparent;
+	border: 1px solid;
+	margin-bottom: 5px;
+	border-radius: 0.875rem;
 }
